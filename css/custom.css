@@ -62,7 +62,7 @@
 }
 
 .js-fullheight1 {
-    height: 700px;
+    height: 700px !important;
 }
 
 .owl-carousel .owl-stage,
