@@ -1,0 +1,62 @@
+.headline-banner {
+    background-color: #31de79;
+}
+
+.headline-banner h4 {
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.list-bullet-color {
+    list-style: none;
+}
+
+.list-bullet-color li::before {
+    content: "\2022";
+    color: #31de79;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.ftco-footer {
+    padding: 30px 0;
+}
+
+.ftco-footer p {
+    margin-bottom: 0;
+}
+
+.services-wrap h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+    .ftco-navbar-light .navbar-toggler {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.btn-section {
+    text-align: center;
+}
+
+#services .tab-content .tab-pane i {
+    color: #31de79;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#contactus .icon i {
+    color: white;
+    font-size: 34px;
+}
