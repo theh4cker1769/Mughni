@@ -31,4 +31,14 @@ $(document).ready(function() {
         $(this).addClass("active").siblings().removeClass("active");
         $(".v-pills-8").addClass("active show").siblings().removeClass("active show");
     });
+
+
+    $(".client-img-grid img").hover(
+        function() {
+            $(this).addClass("animate__fadeIn");
+        },
+        function() {
+            $(this).removeClass("animate__fadeIn");
+        }
+    );
 });

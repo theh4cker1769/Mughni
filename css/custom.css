@@ -1,5 +1,10 @@
-body {
+body p {
     text-align: justify;
+}
+
+.heading-section p,
+.text-center p {
+    text-align: center;
 }
 
 .headline-banner {
@@ -93,4 +98,31 @@ body {
 .careers .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #31de79;
+}
+
+
+/* Clients */
+
+.clients {
+    padding: 140px 0 80px;
+}
+
+.client-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.client-img-grid img {
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.client-img-grid img:hover {
+    filter: grayscale(0%);
+}
+
+.ftco-footer-widget i {
+    margin-right: 5px;
 }
