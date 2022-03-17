@@ -126,3 +126,12 @@ body p {
 .ftco-footer-widget i {
     margin-right: 5px;
 }
+
+.owl-carousel.home-slider {
+    padding-top: 92px;
+}
+
+.ftco-navbar-light {
+    background: white !important;
+    box-shadow: 1px 1px 5px 0px #ccc;
+}
